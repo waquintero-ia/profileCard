@@ -5,8 +5,8 @@ const Score = () =>{
   return(
     <>
           <div className="score_container flex justify-center">
-            <div className="score_content w-[240px] flex gap-[46px]">
-              <div className="score_part_1 flex gap-[40px]">
+            <div className="score_content w-[240px] flex gap-[46px] md:w-[252px] md:gap-[55px]">
+              <div className="score_part_1 flex gap-[40px] md:gap-[48px]">
                 <Items
                   key={score[0].tag}
                   score={score[0].score}

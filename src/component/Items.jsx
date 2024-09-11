@@ -7,7 +7,7 @@ const Items = ({score, tag}) =>{
         <div className="number text-[18px] font-bold tracking-wider">
           {score}
         </div>
-        <div className="tag text-[10px] tracking-[1.5px]">
+        <div className="tag text-[10px] tracking-[1.5px] text-grey-600">
           {tag}
         </div>
       </div>

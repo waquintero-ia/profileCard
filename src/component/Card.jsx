@@ -6,7 +6,7 @@ import UserInfo from "./UserInfo"
 const Card = () => {
   return(
     <>
-      <div className="container w-[326px] min-h-[375px] bg-white rounded-2xl overflow-hidden flex justify-center">
+      <div className="container w-[326px] min-h-[375px] bg-white rounded-2xl overflow-hidden flex justify-center md:w-[350px]">
         <div className="content">
           <BgCard />
           <ImageProfile />

@@ -6,6 +6,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
+  overflow: hidden;
 }
 
 body::before {
@@ -34,4 +35,32 @@ body::after {
   background-position: right bottom;
   background-size: cover;
   z-index: -2; 
+}
+
+@media (min-width: 768px){
+  body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(/images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    transform: scale(400%) translateX(40px) translateY(-25px);
+    z-index: -3; 
+  }
+  
+  body::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url(/images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+    z-index: -2;
+    transform: scale(200%) translateX(-160px) translateY(55px) rotate(-90deg); 
+  }
 }
