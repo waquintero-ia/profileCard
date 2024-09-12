@@ -1,7 +1,7 @@
 const UserInfo = () =>{
   return(
     <>
-      <div className="user_info flex flex-col justify-center items-center text-[18px]  text-grey-900 leading-[100%] gap-[13px]">
+      <div className="user_info flex flex-col justify-center items-center text-18 text-grey-900 leading-[100%] gap-13">
         <div className="title_user_info flex flex-row gap-[8.5px]">
           <h1 className="font-bold">
             Victor Crest 
