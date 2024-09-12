@@ -18,10 +18,10 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ## Live site
 
-🚀 []()
+🚀 [https://waquintero-ia.github.io/profileCard/]()
 
 ## Solution URL
-🚀 []()
+🚀 [https://www.frontendmentor.io/solutions/profile-card-component-react-tailwind-SyIIjP-e7V]()
 
 ## Author
 
@@ -32,10 +32,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 Desktop
 
 ![](./public/images/Desktop.png)
-
-Tablet
-
-![](./public/images/Tablet.png)
 
 Mobile
 
